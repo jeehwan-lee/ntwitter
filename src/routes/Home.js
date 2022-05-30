@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { dbService } from "fbase";
+import { dbService} from "fbase";
 import Nweet from "components/Nweet";
 
 const Home = ({userObj}) => {
@@ -38,6 +38,7 @@ const Home = ({userObj}) => {
         }=event;
         setNweet(value);
     }
+
 
     useEffect(() => {
         // getNweets();
